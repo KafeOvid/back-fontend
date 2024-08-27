@@ -1,0 +1,97 @@
+.top-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Font Size Controls */
+.font-size-controls {
+  display: flex; /* Ensure buttons are displayed in a row */
+  gap: 5px; /* Add space between buttons */
+}
+
+.font-size-controls button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.font-size-controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle button {
+  background-color: #ffeb3b;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.dark-mode-toggle button:hover {
+  background-color: #fdd835;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .login-button,
+.auth-buttons .signup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons .login-button:hover {
+  background-color: #0056b3;
+}
+
+.auth-buttons .signup-button {
+  background-color: #28a745;
+}
+
+.auth-buttons .signup-button:hover {
+  background-color: #218838;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .top-head {
+  background-color: #333;
+}
+
+body.dark-mode .auth-buttons .login-button {
+  background-color: #0056b3;
+}
+
+body.dark-mode .auth-buttons .signup-button {
+  background-color: #218838;
+}
+
+body.dark-mode .font-size-controls button,
+body.dark-mode .dark-mode-toggle button {
+  color: #fff;
+}

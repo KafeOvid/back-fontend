@@ -1,0 +1,33 @@
+.footer-top {
+    background-color: #f1f1f1;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .footer-top-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the left */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the list within the container */
+  }
+  
+  .footer-top-links li {
+    margin: 0 10px;
+  }
+  
+  .footer-top-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-top-links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

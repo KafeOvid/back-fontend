@@ -1,0 +1,43 @@
+/* Apply consistent padding to the About section */
+.about-section {
+  padding: 20px 40px; /* 20px vertical padding, 40px horizontal padding */
+  background-color: #fff; /* Optional: Set a background color if needed */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  margin-bottom: 20px; /* Optional: Add margin to separate it from other sections */
+  max-width: 1200px; /* Optional: Limit the maximum width of the section */
+  margin: 0 auto; /* Center the section within the container */
+  font-size: var(--font-size); /* Ensure the section uses the global font size */
+}
+
+/* Ensure consistent text alignment and spacing */
+.about-section h2 {
+  font-size: 1.5em; /* Adjust size relative to the base font size */
+  margin-bottom: 15px;
+  color: #007bff; /* Match the color used for headings */
+}
+
+.about-section p {
+  font-size: 1em; /* This will now scale with the global font size */
+  color: #333;
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 15px;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section ul li {
+  margin-bottom: 10px;
+}
+
+.about-section a {
+  color: #007bff; /* Match link color */
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Match hover color */
+}
